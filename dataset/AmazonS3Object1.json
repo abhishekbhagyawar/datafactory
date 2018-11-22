@@ -1,0 +1,25 @@
+{
+	"name": "AmazonS3Object1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "datafs3",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AmazonS3Object",
+		"typeProperties": {
+			"format": {
+				"type": "TextFormat",
+				"columnDelimiter": ",",
+				"rowDelimiter": "",
+				"nullValue": "\\N",
+				"treatEmptyAsNull": true,
+				"skipLineCount": 0,
+				"firstRowAsHeader": false
+			},
+			"key": "",
+			"prefix": "",
+			"bucketName": "shekimam"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
